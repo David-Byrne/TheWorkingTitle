@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Playball); /*using google font's latest release, for css3. The css3 @import function designed specifically for importing fonts.*/
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+#allTheBooks{
+    background-color: rgba(30, 1, 26, 0.74);
+}
+
+body{
+	background-image: url("book5.jpg");
+	background-size: 100% auto;
+    position:fixed;
+    height: 100%;
+    overflow: hidden;
+    -webkit-filter: blur(60%);
+    overflow-y: scroll;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+} /*Apologies, this is the only possible solution that allows for the list to be legible, so I'm sorry.*/
+
+#shoppingCart {
+  background-color: rgba(30, 1, 26, 0.74);
+  font-family: 'Playball', cursive;
+  position: fixed;
+  left: 62%;
+  top: 1%;
+  width: 500px;
+  color: white;
+  z-index: 2;
+  box-shadow: 1px 1px 1px 1px #888888;
+}
+
+#allTheBooks {
+    background-color: rgba(30, 1, 26, 0.74);
+    position: relative;
+    left: 10%;
+    top: 90px;
+    width: 700px;
+    padding-top: 10px;
+}
+
+#cart {
+    position: fixed;
+    left: 62%;
+    top: 23%;
+    width: 500px;
+    font-family: 'Lobster', cursive;
+    background-color: rgba(30, 1, 26, 0.92);
+    color: white;
+	overflow-y: scroll;
+    /* border-bottom-color: gray; */
+}
+
+input {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    position: relative;
+    top: 20%;
+	font-size: 100%;
+    background-color: rgba(30, 1, 26, 0.92);
+    color: white;
+    padding: 0px 11px 0px 11px;
+}
+
+input[type="button"] {
+  font-family: 'Lobster', cursive;
+  font-size: 100%;
+  position: relative;
+  left: 1%;
+  background-color: rgba(30, 1, 26, 0.92);
+  color: white;
+  padding: 0px 11px 0px 11px;
+}

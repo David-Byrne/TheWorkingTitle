@@ -1,0 +1,382 @@
+@import url(http://fonts.googleapis.com/css?family=Playball); /*using google font's latest release, for css3. The css3 @import function designed specifically for importing fonts.*/
+@import url(http://fonts.googleapis.com/css?family=Lobster);  /*an extra font not sure about its role yet, could be used for secondary texts later on*/
+/*NOTE TO SELF: # for ids and .fundo for class elements  -- remember though it shouldn't really matter what kind of thing you use though, since the result should be the same*/
+
+/*
+    In terms of design, we went for a clean, modern and simplistic look. Since from a design stand point, the use of large fonts
+    with relative brightness, and slightly muted, flat coloured transparent background(coloured semi-opaque window panes
+    if you will) all add to give the site and the shop a cheery but grownup atmosphere. This is tied into our imaginary
+    ever-changing customer base -- the rising population of young readers.
+
+    As well as this for the sake of thoroughness in the hmtl and in the style there exists code that allows the website
+    function on mobile as well as it does on the bigger platforms this was another aspect of the style, that I focused on
+    realism. This is relevant here since most people do a lot of their shopping and web browsing etc on mobile devices
+    and so it only seemed fair that mobile functionality was a small part of the project.
+
+    For the project a lot of these commands, particularly the likes of the @image url..., -webkit-transitions, and other
+    more esoteric elements of the styling, I have learned from various magazines that I've been reading for the past while,
+    since I really gotten into UI design and web development in general.
+*/
+
+* {
+    -webkit-box-sizing: border-box; /*here, I've added the different library supports for all the animations for different
+                                    browsers...this ones for webkit browsers most notably chrome*/
+
+    -moz-box-sizing: border-box;    /*this ones for firefox, and the star is being used as the class in this style section
+                                    because this is a universal style class, that is being used so every style beyond this
+                                    will have the style here implemented. */
+    -o-box-sizing: border-box;
+    box-sizing: border-box;         /*this particular command allows me to not worry about all my content being on the page as
+                                    this css3 code just adjusts the page so that all the content will render on the page*/
+
+    -webkit-transition: .28s ease-in-out; /*multiple css3 browser supports for the one function, universal transformation for when I add the sliding menu. */
+    -moz-transition: .28s ease-in-out;
+    transition: .28s ease-in-out;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+
+#sliding-menu::-webkit-scrollbar {
+    width: 0 !important
+}
+#sliding-menu {
+    -ms-overflow-style: none;
+	z-index: 9;
+}
+#sliding-menu {
+    overflow: -moz-scrollbars-none;
+}
+
+
+html,body {
+    background-image: url("book5.jpg");
+	background-size: 100% auto;
+    position:fixed;
+    height: 100%;
+    overflow: hidden;
+	-webkit-filter: blur(60%);
+	overflow-y: scroll;
+}
+header {
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    background: rgba(51, 0, 51, 0.66);
+    padding: 15px 1px 10px 50px;
+    font-family: 'Playball', cursive;/*As a group we decided that we should go for a sort of handwritten feel for our website*/
+    color:white;
+    font-size: 72px; /*The font has to be THIS big, since otherwise the font style makes the header look measly and not--well designwise header-like -- since from a design/marketing standpoint the masthead of any shop/company has to stand out and be eye-catching */
+    line-height: 60px; /*Making sure that the purple padding fits the font*/
+    z-index: 0;
+}
+
+.adminLogin{
+	position: relative;
+}
+
+#logInForm{
+	position: relative;
+	letf:20%;
+}
+
+/*
+  As far as I was concerned in terms of functional modern features nothing strikes out to me more, when I visit websites
+  these days than the use of the sliding menu, which acts not only as a conduit for both presenting user with links and
+  other useful options but moreover I like the way it doesn't take from the content on the main page, as at the click of
+  a button (or the touch of the screen) the sliding menu is quickly hidden away and thus no compromises have to be made
+  for the sharing of screen space.
+
+  For this feature I drew heavy influences from both Tumblr and Spotify two sites that both use this feature for the user menus.
+*/
+
+#sliding-menu-toggle {
+    position: absolute;
+    opacity: 0;
+}
+
+/*
+    In terms of implementation I opted to go for such a feature I went for a
+*/
+
+#sliding-menu-toggle-label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left: 0px;
+    height:50px;
+    width: 50px;
+    display: block;
+    position: fixed;
+    background: rgba(255,255,255,.0);
+    z-index: 1;
+}
+
+/* css3 speak for the three lined menu button used in websites these days*/
+
+#sliding-menu-toggle-label:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 24px;
+    background: #ffff6f;
+    left: 13px;
+    top: 18px;
+    box-shadow: 0 6px 0 #6cdcd9, 0 12px 0 #dae719;
+}
+
+/* drawer menu pane - note the 0px width */
+
+#sliding-menu {
+    position: fixed;
+    top: 0;
+    left:-300px;
+    height: 100%;
+    width: 300px;
+    background: rgba(0, 113, 8, 0.83);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 20px;
+    -webkit-overflow-scrolling: touch;
+	/*z-index: 9;*/
+}
+
+/* actual page content pane */
+
+#page-content {
+    margin-left: 0px;
+    margin-top: 150px;
+    width: 1366px;
+    height: calc(100% - 150px);
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    color:white;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling: touch;
+    padding: 20px;
+	z-index: -5;
+}
+
+/*Animations and styling for when the menu is opened up.*/
+
+#sliding-menu-toggle:checked ~ #sliding-menu-toggle-label {
+    height: 100%;
+    width: calc(100% - 300px);
+    background: rgba(255,255,255,.19);
+}
+
+#sliding-menu-toggle:checked ~ #sliding-menu-toggle-label,
+#sliding-menu-toggle:checked ~ header {
+    left: 300px;
+}
+
+#sliding-menu-toggle:checked ~ #sliding-menu {
+    left: 0px;
+}
+
+#sliding-menu-toggle:checked ~ #page-content {
+    margin-left: 300px;
+}
+
+/* Menu item style*/
+
+#sliding-menu ul {
+    list-style-type:none;
+}
+
+#sliding-menu ul a {
+    display:block;
+    padding:24px;
+    font-family:'Lobster', cursive ;
+    font-size: 24px;
+    font-weight: 700;
+    color: #56fb00;
+    text-decoration:none;
+}
+
+/*Animations and styling for when the menu is opened up.*/
+
+#sliding-menu ul a:hover {
+    color:white;
+}
+
+/*Minor changes below to make the whole menu presentable and easier to look at!*/
+
+@media all and (max-width:350px) {
+
+    #sliding-menu-toggle:checked ~ #sliding-menu-toggle-label {
+        height: 100%;
+        width: 50px;
+    }
+
+    #sliding-menu-toggle:checked ~ #sliding-menu-toggle-label,
+    #sliding-menu-toggle:checked ~ header {
+        left: calc(100% - 50px);
+    }
+
+    #sliding-menu-toggle:checked ~ #sliding-menu {
+        width: calc(100% - 50px);
+        padding: 20px;
+    }
+
+    #sliding-menu-toggle:checked ~ #page-content {
+        margin-left: calc(100% - 50px);
+    }
+
+}
+
+
+.Universal-Cart-Style{
+    background-color: rgba(30, 1, 26, 0.75); /*relatively less transparent than the other pieces since this is more functionality over style*/
+    color:white;
+    font:'Playball',cursive; /*note to self, or any of you guys as well: Test over custom background to make sure that the cart isn't intrusive to the content. */
+}
+
+.headCheckout{
+    background-color:rgba(30, 1, 26, 0.75);
+    color:white;
+    font:'Playball',cursive;
+}
+
+/*The Checkout cart*/
+.Checkout-Body{
+    background-color: rgba(154, 153, 151, 0.53);
+    color:white;
+    font:'Playball',cursive;
+}
+
+#shoppingCart.checkoutCart {
+  font-family: 'lobster', cursive;
+  background-color: rgba(30, 1, 26, 0.92);
+  position: absolute;
+  left: 70%;
+  color: white;
+  top: 13%;
+}
+
+.runningTotCart
+{
+    font-family: 'Lobster', cursive;
+    background-color: rgba(30, 1, 26, 0.92);
+    color:white;
+    font-weight: bold;
+    text-align:left;
+    padding-top:10px;
+    padding-right:70px;
+}
+.cartTitle
+{
+    font-family: 'Lobster', cursive;
+    background-color: rgba(30, 1, 26, 0.92);
+    width:200px;
+    color:white;
+}
+
+.cartQuan .cartPrice
+{
+    font-family: 'Lobster', cursive;
+    background-color: rgba(30, 1, 26, 0.92);
+    padding:50px;
+    width:125px;
+    color:white;
+}/*
+input
+{
+    font-family: 'Lobster', cursive;
+    background-color: rgba(30, 1, 26, 0.92);
+    color:white;
+    padding: 0px 11px 0px 11px;
+}*/
+
+i{
+    font-family: 'Lobster', cursive;
+    color:white;
+    background-color: rgba(30, 1, 26, 0.92);
+}
+
+textarea
+{
+    font-family: 'Lobster', cursive;
+    background-color: rgba(30, 1, 26, 0.92);
+    color:white;
+    padding:none;
+}
+
+/*Styling for the detailed-search-box below*/
+
+.searchFormDiv{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+     background-color: rgba(69, 1, 65, 0.92);
+    color:white;
+    padding:65px;
+    position:absolute;
+    left:20%;
+}
+
+/*Styling for the admin-login*/
+
+.admin-login {
+    font-family: 'Lobster', cursive;
+    font-size: 42px;
+    font-weight: 700;
+    color:white;
+    padding:65px;
+    position: absolute;
+    left:40%;
+}
+
+
+
+
+/*Styling for the contactUs page below*/
+#contactUsForm , #adminAddForm, #editForm {
+  padding: 25px;
+  background: rgba(30, 1, 26, 0.74);
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 40%;
+  font-size: 120%;
+}
+
+button {
+	position:relative;
+	left:40%;
+	top:5px;
+	font-family: 'Lobster', cursive;
+    font-size: 90%;
+    background-color: rgba(30, 1, 26, 0.92);
+    color: white;
+    padding: 0px 11px 0px 11px;
+}
+
+button#contUsSubmit {
+	left:5%;
+}
+
+input {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    position: relative;
+    top: 20%;
+	font-size: 100%;
+    background-color: rgba(30, 1, 26, 0.92);
+    color: white;
+    padding: 0px 11px 0px 11px;
+}
+
+input[type="button"][disabled]{
+	background-color:gray;
+}
+
+#fullname, #contUsEmail
+{
+	position:relative;
+	left:0%;
+	top: 0%;
+}

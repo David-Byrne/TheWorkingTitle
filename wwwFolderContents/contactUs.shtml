@@ -1,0 +1,30 @@
+<!--#include file="top.html" -->
+
+<form id="contactUsForm" method="post" action="/cgi-bin/classProjectWebVersion.exe">
+	<input id="contUsChoice" name="choice" type="hidden">
+	<input id="contUsAdmin" name="isAdmin" type="hidden">
+	<p>Name:</p>
+	<input data-nameValid="false" id="fullname" name="fullname" onkeypress="return actualAlphaCheck(event, this)" value="">
+	<p>Email Address:</p>
+	<input data-emailValid="false" id="contUsEmail" name="email" onkeyup="emailCheck(this)" value="">
+	<p>Question Category:</p>
+	<select data-optionValid="false" id="contUsOption" onchange="optionVal(this)">
+		<option value="0">---</option>
+		<option value="1">Our Stock</option>
+		<option value="2">Shipping</option>
+		<option value="3">Jobs</option>
+		<option value="4">Returns Policy</option>
+		<option value="5">Thank-you notes</option>
+		<option value="6">Complaints</option>
+		<option value="7">Anything Else</option>
+	</select>
+
+	<input id="contUsDDB" name="Category" type="hidden">
+	<input id="contUsTime" name="time" type="hidden">
+	<input id="contUsDate" name="date" type="hidden">
+	<p>Your Question:</p>
+	<textarea data-queryValid="false" id="query" name="query" onkeyup="queryCheck(this)" cols="40" rows="6" placeholder="Please enter less than 1000 characters..." maxlength="1000" value=""></textarea>
+	<button type="button" onclick="contUsValidate(4)"id="contUsSubmit" disabled>Submit Form</button>
+</form>
+
+<!--#include file="bottom.html" -->

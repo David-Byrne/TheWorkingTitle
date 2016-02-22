@@ -1,0 +1,48 @@
+<!--#include virtual="top.html" -->
+
+<form id="adminAddForm" METHOD=post ACTION="/cgi-bin/classProjectWebVersion.exe" style="visibility:hidden;">
+	<input id="addChoice" name="choice" type="hidden">
+	<input id="addIsAdmin" name="admin" type="hidden">
+	<p>Title:</p>
+	<input id="addTitle" name="title" maxlength="69" placeholder="Book's Title" onkeypress="return alphaCheck(event, this)">
+	<p>Author:</p>
+	<input id="addAuthor" name="author" maxlength="69" placeholder="Book's Author" onkeypress="return alphaCheck(event, this)">
+	<p>Publisher:</p>
+	<input id="addPub" name="publisher" maxlength="69" placeholder="Book's Publisher" onkeypress="return alphaCheck(event, this)">
+	<p>Stock:</p>
+	<input id="addStock" name="stock" placeholder="Book's Stock" onkeypress="return intCheck(event, this)">
+	<p>Price:</p>
+	<input id="addPrice" name="price" placeholder="Book's Price" onkeypress="return floatCheck(event, this)">
+	<p>Year:</p>
+	<input id="addYear" name="year" placeholder="Book's Year" onkeypress="return intCheck(event, this)">
+	<p>ISBN:</p>
+	<input id="addISBN" name="ISBN" maxlength="13" placeholder="Book's ISBN" onkeypress="return isbnCheck(event, this)">
+		
+	<p>Book Genre:</p>
+	<select id="addGenre" onchange="optionVal(this)">
+	<option value="0">---</option>
+	<option value="1">Fiction</option>
+	<option value="2">Crime</option>
+	<option value="3">Young adult</option>
+	<option value="4">Non-Fiction</option>
+	<option value="5">Children's</option>
+	<option value="6">Travel</option>
+	<option value="7">Other</option>
+	</select>
+	<input id="addGenreDDB" name="genreDDB" type="hidden">
+	<input type="button" id="addSubmit" type="button" onclick="addBookValidate(5)" value="Submit Form"></input>
+</form>	
+
+<script>
+	if (sessionStorage.admin == 1)
+	{
+		document.getElementById('adminAddForm').style.visibility = 'visible';
+	}
+	else
+	{
+		window.alert("Please log in");
+		window.location = '../adminLogin.shtml';
+	}
+</script>
+
+<!--#include virtual="bottom.html" -->

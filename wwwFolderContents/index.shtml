@@ -1,0 +1,13 @@
+<!--#include virtual="top.html" -->
+
+<input type="text" id="query" placeholder="Title or Author" onkeypress="searchCheck(event, this)">
+<input type="button" value="Search" onclick="searchSubmit(0)">
+<form id="searchForm" METHOD=post ACTION="/cgi-bin/classProjectWebVersion.exe">
+	<input id="mainSearchChoice" name="MainChoice" type="hidden" value="">
+	<input id="adminSearchChoice" name="AdminChoice" type="hidden" value="">
+	<input id="searchMode" name="SearchMode" type="hidden" value="">
+</form>
+	
+<!--#include file="bottom.html" -->
+
+

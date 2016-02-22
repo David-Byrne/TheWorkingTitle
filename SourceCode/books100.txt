@@ -1,0 +1,102 @@
+ISBN	Title	Author	Publisher	Stock	Price	Publ Date	Genre
+9780552149518	The Da Vinci Code	Brown, Dan	Transworld Grp	34	7.99	2004	Crime, Thriller 
+9780747532743	Harry Potter and the Philosopher's Stone	Rowling, J. K.	Bloomsbury Grp	58	6.99	1997	Children's Fiction
+9780747538486	Harry Potter and the Chamber of Secrets	Rowling, J. K.	Bloomsbury Grp	196	6.99	1999	Children's Fiction
+9780552150736	Angels and Demons	Brown, Dan	Transworld Grp	99	7.99	2003	Crime, Thriller & Adventure
+9780747551003	Harry Potter and the Order of the Phoenix	Rowling, J. K.	Bloomsbury Grp	224	16.99	2003	Children's Fiction
+9780747581086	Harry Potter and the Half-blood Prince:Children's Edition	Rowling, J. K.	Bloomsbury Grp	432	16.99	2005	Children's Fiction
+9780747591054	Harry Potter and the Deathly Hallows	Rowling, J. K.	Bloomsbury Grp	47	17.99	2007	Children's Fiction
+9780747546290	Harry Potter and the Prisoner of Azkaban	Rowling, J. K.	Bloomsbury Grp	64	6.99	2000	Children's Fiction
+9781904233657	Twilight	Meyer, Stephenie	Little, Brown Book Grp	112	7.99	2007	Young Adult Fiction
+9780747550990	Harry Potter and the Goblet of Fire	Rowling, J. K.	Bloomsbury Grp	147	8.99	2001	Children's Fiction
+9780552151764	Deception Point	Brown, Dan	Transworld Grp	14	7.99	2004	Crime, Thriller & Adventure
+9781904233886	New Moon	Meyer, Stephenie	Little, Brown Book Grp	159	7.99	2007	Young Adult Fiction
+9780330457729	The Lovely Bones	Sebold, Alice	Pan Macmillan Grp	42	7.99	2009	General & Literary Fiction
+9780552151696	Digital Fortress	Brown, Dan	Transworld Grp	193	7.99	2004	Crime, Thriller & Adventure
+9780099450252	Curious Incident of the Dog in the Night-time,The	Haddon, Mark	Random House Grp	219	7.99	2004	General & Literary Fiction
+9781904233916	Eclipse	Meyer, Stephenie	Little, Brown Book Grp	171	7.99	2008	Young Adult Fiction
+9781847245458	Girl with the Dragon Tattoo,The:Millennium Trilogy	Larsson, Stieg	Quercus Grp	175	7.99	2008	Crime, Thriller & Adventure
+9780747566533	The Kite Runner	Hosseini, Khaled	Bloomsbury Grp	203	7.99	2004	General & Literary Fiction
+9780099464464	The Time Traveler's Wife	Niffenegger, Audrey	Random House Grp	81	7.99	2004	General & Literary Fiction
+9780141017891	World According to Clarkson,The	Clarkson, Jeremy	Penguin Grp	188	7.99	2005	Humour: Collections & General
+9780099429791	Atonement	McEwan, Ian	Random House Grp	116	7.99	2002	General & Literary Fiction
+9780593054277	Lost Symbol,The	Brown, Dan	Transworld Grp	97	18.99	2009	Crime, Thriller & Adventure
+9780552997041	Short History of Nearly Everything,A	Bryson, Bill	Transworld Grp	135	9.99	2004	Popular Science
+9781905654284	Breaking Dawn	Meyer, Stephenie	Little, Brown Book Grp	185	14.99	2008	Young Adult Fiction
+9780747546245	Harry Potter and the Goblet of Fire	Rowling, J. K.	Bloomsbury Grp	161	17.99	2000	Children's Fiction
+9780747591061	Harry Potter and the Deathly Hallows	Rowling, J. K.	Bloomsbury Grp	130	17.99	2007	Science Fiction & Fantasy
+9781849163422	Girl Who Played With Fire,The:Millennium Trilogy	Larsson, Stieg	Quercus Grp	224	7.99	2010	Crime, Thriller & Adventure
+9780752837505	A Child Called It	Pelzer, Dave	Orion Grp	42	6.99	2001	A Autobiography: General
+9780349116754	No.1 Ladies' Detective Agency,The:No.1 Ladies' Detective Agency S.	McCall Smith, Alexander	Little, Brown Book Grp	219	7.99	2003	Crime, Thriller & Adventure
+9780718147655	You are What You Eat:The Plan That Will Change Your Life	McKeith, Gillian	Penguin Grp	119	14.99	2004	Fitness & Diet
+9780006512134	Man and Boy	Parsons, Tony	HarperCollins Grp	197	7.99	2000	General & Literary Fiction
+9780099387916	Birdsong	Faulks, Sebastian	Random House Grp	71	7.99	1994	General & Literary Fiction
+9780752877327	Labyrinth	Mosse, Kate	Orion Grp	8	7.99	2006	General & Literary Fiction
+9780755309511	The Island	Hislop, Victoria	Headline Grp	182	7.99	2006	General & Literary Fiction
+9781841953922	Life of Pi	Martel, Yann	Canongate Grp	90	7.99	2003	General & Literary Fiction
+9780091889487	Dr. Atkins' New Diet Revolution:The No-hunger, Luxurious Weight Loss PAtkins, Robert C.	Atkins, Robert C.	Atkins, Robert C.	0	31.00	8	2003
+9780747599876	The Tales of Beedle the Bard	Rowling, J. K.	Bloomsbury Grp	73	6.99	2008	Children's Fiction
+9780749397548	Captain Corelli's Mandolin	De Bernieres, Louis	Random House Grp	164	7.99	1995	General & Literary Fiction
+9780563384304	Delia's How to Cook:(Bk.1)	Smith, Delia	Random House Grp	104	20.00	1998	Food & Drink: General
+9780330507417	The Gruffalo	Donaldson, Julia	Pan Macmillan Grp	208	5.99	2009	Y1.3Picture Books
+9781861976123	Eats, Shoots and Leaves:The Zero Tolerance Approach to Punctuation	Truss, Lynne	Profile Books Group	205	9.99	2003	T2.1Usage & Writing Guides
+9780590660549	Northern Lights:His Dark Materials S.	Pullman, Philip	Scholastic Ltd. Grp	185	6.99	1998	Young Adult Fiction
+9780755331420	Interpretation of Murder,The	Rubenfeld, Jed	Headline Grp	186	7.99	2007	Crime, Thriller & Adventure
+9781849162746	Girl Who Kicked the Hornets' Nest,The:Millennium Trilogy	Larsson, Stieg	Quercus Grp	103	7.99	2010	Crime, Thriller & Adventure
+9780330367356	Bridget Jones: The Edge of Reason	Fielding, Helen	Pan Macmillan Grp	179	7.99	2000	General & Literary Fiction
+9780141020525	Short History of Tractors in Ukrainian,A	Lewycka, Marina	Penguin Grp	248	7.99	2006	General & Literary Fiction
+9780722532935	The Alchemist:A Fable About Following Your Dream	Coelho, Paulo	HarperCollins Grp	145	7.99	1999	General & Literary Fiction
+9780552996006	Notes from a Small Island	Bryson, Bill	Transworld Grp	138	8.99	1996	Travel Writing
+9780099487821	Boy in the Striped Pyjamas,The	Boyne, John	Transworld Grp	200	6.99	2007	Young Adult Fiction
+9780141011905	Stupid White Men:...and Other Sorry Excuses for the State of the NatioMoore, Michael	Moore, Michael	Penguin Grp	27	7.99	2002	Current Affairs & Issues
+9780718154776	Jamie's 30-minute Meals	Oliver, Jamie	Penguin Grp	46	26.00	2010	Food & Drink: General
+9780099457169	The Broker	Grisham, John	Random House Grp	77	7.99	2005	Crime, Thriller & Adventure
+9780330332774	Bridget Jones's Diary:A Novel	Fielding, Helen	Pan Macmillan Grp	140	7.99	1997	General & Literary Fiction
+9780241003008	The Very Hungry Caterpillar:The Very Hungry Caterpillar	Carle, Eric	Penguin Grp	170	5.99	1994	Pre-school & Early Learning
+9780747582977	A Thousand Splendid Suns	Hosseini, Khaled	Bloomsbury Grp	23	11.99	2007	General & Literary Fiction
+9781846051616	The Sound of Laughter	Kay, Peter	Random House Grp	249	18.99	2006	A Autobiography: General
+9780718147709	Jamie's Italy	Oliver, Jamie	Penguin Grp	60	25.00	2005	National & Regional Cuisine
+9780755307500	Small Island	Levy, Andrea	Headline Grp	39	7.99	2004	General & Literary Fiction
+9780141030142	Memory Keeper's Daughter,The	Edwards, Kim	Penguin Grp	127	7.99	2007	General & Literary Fiction
+9780007110926	Billy Connolly	Stephenson, Pamela	HarperCollins Grp	133	8.99	2002	Biography: The Arts
+9780330448444	House at Riverton,The	Morton, Kate	Pan Macmillan Grp	88	7.99	2007	General & Literary Fiction
+9780747561071	Harry Potter and the Order of the Phoenix	Rowling, J. K.	Bloomsbury Grp	100	7.99	2004	Children's Fiction
+9780701181840	Nigella Express	Lawson, Nigella	Random House Grp	165	25.00	2007	Food & Drink: General
+9780099771517	Memoirs of a Geisha	Golden, Arthur	Random House Grp	206	7.99	1998	General & Literary Fiction
+9780563384311	Delia's How to Cook:(Bk.2)	Smith, Delia	Random House Grp	246	20.00	1999	Food & Drink: General
+9780590112895	The Subtle Knife:His Dark Materials S.	Pullman, Philip	Scholastic Ltd. Grp	217	6.99	1998	Young Adult Fiction
+9780718148621	Jamie's Ministry of Food:Anyone Can Learn to Cook in 24 Hours	Oliver, Jamie	Penguin Grp	150	25.00	2008	Food & Drink: General
+9781904994367	Guinness World Records 2009:2009	Guinness corp.	Guinness Publisher Group	215	20.00	2008	Encyclopedias & General Reference
+9781861978769	Why Don't Penguins' Feet Freeze?:And 114 Other Questions	New Scientist	Profile Books Group	167	7.99	2006	Popular Science
+9780718152437	Jamie at Home:Cook Your Way to the Good Life	Oliver, Jamie	Penguin Grp	143	30.00	2007	Food & Drink: General
+9780140276336	White Teeth	Smith, Zadie	Penguin Grp	166	8.99	2001	General & Literary Fiction
+9780007156108	Devil Wears Prada,The	Weisberger, Lauren	HarperCollins Grp	210	7.99	2003	General & Literary Fiction
+9780593059258	At My Mother's Knee ...:and Other Low Joints	O'Grady, Paul	Transworld Grp	164	18.99	2008	A Autobiography: The Arts
+9780752893686	No Time for Goodbye	Barclay, Linwood	Orion Grp	103	7.99	2008	Crime, Thriller & Adventure
+9780007207329	The Times Su Doku:The Utterly Addictive Number-placing Puzzle	Wayne Gould	HarperCollins Grp	57	5.99	2005	T13.4Puzzles
+9780552998482	Chocolat	Harris, Joanne	Transworld Grp	49	7.99	2000	General & Literary Fiction
+9780718144395	Return of the Naked Chef,The	Oliver, Jamie	Penguin Grp	70	20.00	2000	Food & Drink: General
+9780006498407	Angela's Ashes:A Memoir of a Childhood	McCourt, Frank	HarperCollins Grp	81	7.99	1997	A Autobiography: General
+9780747563204	Schott's Original Miscellany	Schott, Ben	Bloomsbury Grp	63	12.99	2002	T13.3Trivia & Quiz Books
+9781847670946	Dreams from My Father:A Story of Race and Inheritance	Obama, Barack	Canongate Grp	15	8.99	2008	A Autobiography: Historical, Political & Military
+9780007232741	The Dangerous Book for Boys	Iggulden, Conn & Iggulden, Hal	HarperCollins Grp	58	20.00	2006	Hobbies, Pastimes & Indoor Games
+9780099419785	To Kill a Mockingbird	Lee, Harper	Random House Grp	102	6.99	1989	General & Literary Fiction
+9780747581109	Harry Potter and the Half-blood Prince	Rowling, J. K.	Bloomsbury Grp	96	16.99	2005	Science Fiction & Fantasy
+9780099406136	The Summons	Grisham, John	Random House Grp	128	7.99	2002	Crime, Thriller & Adventure
+9780552149525	The Lost Symbol	Brown, Dan	Transworld Grp	200	7.99	2010	Crime, Thriller & Adventure
+9780140237504	Catcher in the Rye,The	Salinger, J.D.	Penguin Grp	247	8.99	1994	General & Literary Fiction
+9780593050545	I Can Make You Thin	McKenna, Paul	Transworld Grp	173	10.99	2005	Fitness & Diet
+9780718144845	Happy Days with the Naked Chef	Oliver, Jamie	Penguin Grp	222	20.00	2001	Food & Drink: General
+9780552771153	Brick Lane	Ali, Monica	Transworld Grp	23	7.99	2004	General & Literary Fiction
+9780141019376	Anybody Out There?	Keyes, Marian	Penguin Grp	213	7.99	2007	General & Literary Fiction
+9780552772747	The Undomestic Goddess	Kinsella, Sophie	Transworld Grp	98	7.99	2006	General & Literary Fiction
+9780552773898	The Book Thief	Zusak, Markus	Transworld Grp	24	7.99	2008	General & Literary Fiction
+9780141022925	I Know You Got Soul	Clarkson, Jeremy	Penguin Grp	24	7.99	2006	Transport: General
+9780316731317	Sharon Osbourne Extreme:My Autobiography	Osbourne, Sharon	Little, Brown Book Grp	181	18.99	2005	A Autobiography:The Arts
+9781904994497	Guinness World Records 2010	 Guinness Corp.	Guinness Publisher Group	76	20.00	2009	Encyclopedias & General Reference
+9780439993586	The Amber Spyglass:His Dark Materials S.	Pullman, Philip	Scholastic Ltd. Grp	115	6.99	2001	Young Adult Fiction
+9780552771108	Can You Keep a Secret?	Kinsella, Sophie	Transworld Grp	38	7.99	2003	General & Literary Fiction
+9780552997034	Down Under	Bryson, Bill	Transworld Grp	15	8.99	2001	Travel Writing
+9780099506928	A Spot of Bother	Haddon, Mark	Random House Grp	203	7.99	2007	General & Literary Fiction
+9781846053443	Dear Fatty	French, Dawn	Random House Grp	136	18.99	2008	A Autobiography:The Arts
+9781471404481	To Hold The Bridge	Garth Nix	Puffin Books	123	9.99	2015	Young Adult

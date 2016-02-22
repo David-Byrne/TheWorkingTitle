@@ -1,0 +1,55 @@
+<!--#include virtual="top.html" -->
+
+<form id="editForm" METHOD=post ACTION="/cgi-bin/classProjectWebVersion.exe" style="visibility:hidden;">
+	<input id="editChoice" name="choice" type="hidden">
+	<input id="editAdmin" name="admin" type="hidden">
+	<input id="editISBN" name="ISBN" type="hidden">
+	<p>Title:</p>
+	<input id="editTitle" name="title"  class="longTextBox" maxlength="69" onkeypress="return alphaCheck(event, this)">
+	<p>Author:</p>
+	<input id="editAuthor" name="author" maxlength="69" onkeypress="return alphaCheck(event, this)">
+	<p>Publisher:</p>
+	<input id="editPub" name="publisher" maxlength="69" onkeypress="return alphaCheck(event, this)">
+	<p>Stock:</p>
+	<input id="editStock" name="stock" onkeypress="return intCheck(event, this)">
+	<p>Price:</p>
+	<input id="editPrice" name="price" onkeypress="return floatCheck(event, this)">
+	<p>Year:</p>
+	<input id="editYear" name="year" onkeypress="return intCheck(event, this)">
+		
+	<p>Book Genre:</p>
+	<input id="editGenre" name="genre" onkeypress="return alphaCheck(event, this)">
+	<button id="editSubmit" type="button" onclick = editRecordValidate(9) disabled>Save Details</button>
+</form>	
+
+<script>
+	if (sessionStorage.admin == 1)
+	{
+		document.getElementById('editForm').style.visibility = 'visible';
+		document.getElementById('editAdmin').value = sessionStorage.admin;
+		document.getElementById('editISBN').value = sessionStorage.isbn;
+		document.getElementById('editTitle').value = sessionStorage.title;
+		document.getElementById('editAuthor').value = sessionStorage.author;
+		document.getElementById('editPub').value = sessionStorage.publisher;
+		document.getElementById('editGenre').value = sessionStorage.genre;
+		document.getElementById('editYear').value = sessionStorage.year;
+		document.getElementById('editPrice').value = sessionStorage.price;
+		document.getElementById('editStock').value = sessionStorage.stock;
+		/*sessionStorage.isbn = null;
+		sessionStorage.title = null;
+		sessionStorage.author = null;
+		sessionStorage.publisher = null;
+		sessionStorage.genre = null;
+		sessionStorage.year = null;
+		sessionStorage.price = null;
+		sessionStorage.stock = null;*/
+	}
+	else
+	{
+		window.alert("Please log in");
+		//window.open("http://localhost/WorkingTitle/index.shtml","_self");
+		window.location = '../adminLogin.shtml';
+	}
+</script>
+
+<!--#include virtual="bottom.html" -->

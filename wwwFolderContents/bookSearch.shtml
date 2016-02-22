@@ -1,0 +1,17 @@
+<!--#include file="top.html" -->
+
+<form id="searchForm" METHOD=post ACTION="/cgi-bin/classProjectWebVersion.exe">
+	<input id="mainSearchChoice" name="MainSearchChoice" type="hidden" value="2">
+	<input id="adminSearchChoice" name="AdminSearchChoice" type="hidden" value = "">            
+	<input id='searchMode' name='SearchMode' type='hidden' value = "">
+	<input type="text" id="isbn" value="" name="ISBN" placeholder="ISBN" onkeypress="return isbnCheck(event, this)"><br>
+	<input type="text" id="title" value="" name="Title" placeholder="Title"><br>
+	<input type="text" id="author" value="" name="Author" placeholder="Author"><br>
+	<input type="text" id="publisher" value="" name="Publisher" placeholder="Publisher"><br>
+	<input type="text" id="price" value="" name="Price" placeholder="Maximum Price" onkeypress="return floatCheck(event, this)"><br>
+	<input type="text" id="year" value="" name="Year" placeholder="Year"><br>
+	<input type="text" id="genre" value="" name="Genre" placeholder="Genre"><br>
+	<input type="button" onclick="searchSubmit(1)" value="Search!">
+</form>
+
+<!--#include file="bottom.html" -->

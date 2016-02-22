@@ -1,0 +1,12 @@
+<!--#include file="top.html" -->
+
+<form id="logInForm" METHOD=post ACTION="/cgi-bin/classProjectWebVersion.exe">
+	<input id="logInChoice" name="choice" type="hidden">
+	<div class="adminLogin">Password?:</div>
+	<!-- <input id="otherData" name="OtherData" type="hidden" value="2"> -->
+	<input id="logInAdmin" name="admin" type="hidden">
+	<input id="logInAttempt" type="password" name="logInAttempt">
+	<input type="button" onclick = logIn(7) value="Enter"></input>
+</form>
+	
+<!--#include file="bottom.html" -->

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge"> <!--Meta command for IE support, going from edge(the latest version and the going back in time)-->
+    <title>The Working Title Bookshop</title>
+    <meta name="description" content="Your One Stop Shop for All Your Reading Needs"><!--A tag line for linking it your friend or sharing it!!-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--For Autosizing the total width of the page-->
+
+    <link rel="stylesheet" href="bookshop.css">
+    <script src="labhrasJS.js"></script>
+    <script src="davidJS.js"></script>
+</head>
+<body onload="menu(); loadAdmin()">
+	<input type="checkbox" id="sliding-menu-toggle" name="sliding-menu-toggle"/><!--Using a checkbox to create the sliding-menu-->
+	<label for="sliding-menu-toggle" id="sliding-menu-toggle-label"></label>
+	<header>The Working Title</header>
+	<nav id="sliding-menu">
+		<ul class="link-styles">
+		</ul>
+	</nav>
+	<div id="page-content">
+		<form id="mainForm" METHOD=post ACTION="/cgi-bin/classProjectWebVersion.exe">
+			<input type="hidden" id="mainChoice" name="MainChoice" value="">
+			<input type="hidden" id="adminChoice" name="AdminChoice" value="">
+			<input type="hidden" id="OtherData" name="OtherData" value="">
+		</form>
+<!--End of top.html-->

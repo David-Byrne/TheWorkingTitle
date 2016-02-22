@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Playball);
+body{
+    background-image: url("book5.jpg");/*Separate styling was added for the elements in the check-out-style, as it was,
+                                        it's own html page with it's own elements that needed specific styling features*/
+	background-size: 100% auto;           /*Error fix for making the background image to stay fixed*/
+	position:fixed;
+    height: 100%;
+    overflow: hidden;
+}
+
+.headCheckout{
+    font-family: 'Lobster', cursive;   /*Hierarchical format in terms of styling in that is */
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    background-color: rgba(30, 1, 26, 0.74);
+    padding: 0px;
+    position: relative;
+    top: -40%;
+}
+
+#shoppingCart.checkoutCart {
+    font-family: 'Playball', cursive;
+    color: white;
+    font-size: 100%;
+    position: absolute;
+    top: 13%;/*Positioning to make sure that the elements on the page stay placed properly*/
+	left: 63%;
+	width:35%;
+    height: 23%;
+    background-color: rgba(30, 1, 26, 0.74); /*Color scheme to stay consistent*/
+}
+
+#cart {
+	position: absolute;
+	top: 36%;
+	left: 63%;
+	font-family: 'Lobster',cursive;
+	background: rgba(30, 1, 26, 0.74);
+	font-size: 80%;
+	width: 35%;
+	color: white;
+}
+
+#checkoutForm {
+	position: relative;
+	top: 0%;
+	left: 12%;
+	height: 100%;
+	width:50%;
+	color: white;
+	font-family: 'Lobster',cursive;
+	font-size: 100%;
+	background-color: rgba(30, 1, 26, 0.74);
+}
+input[type="text"]{
+	position:relative;
+	top:0%;
+	left:0%;
+}
+input[type="button"]{
+	position:relative;
+	top:0%;
+    background-color: cornsilk;
+    font-family: 'Lobster', cursive;
+    color:black;
+}
+input[type="button"] disabled{
+	color:gray;
+}
+textarea{
+	width:90%;
+}

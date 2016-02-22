@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="IE=edge">
+		<title>The Working Title Bookshop</title>
+		<meta name="description" content="Your One Stop Shop for All Your Reading Needs">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bookshop.css">
+		<link rel="stylesheet" href="check-out-style.css">
+		<script src="labhrasJS.js"></script>
+		<script src="davidJS.js"></script>
+	</head>
+	<body onload="menu(); readCartContents(1)">
+		<input type="checkbox" id="sliding-menu-toggle" name="sliding-menu-toggle"/>
+		<label for="sliding-menu-toggle" id="sliding-menu-toggle-label"></label>
+		<header>The Working Title</header>
+		<nav id="sliding-menu">
+			<ul class="link-styles">
+			</ul>
+		</nav>
+		<div id="page-content">
+			<form id="mainForm" METHOD=post ACTION="/cgi-bin/classProjectWebVersion.exe">
+				<input type="hidden" id="mainChoice" name="MainChoice" value="">
+				<input type="hidden" id="adminChoice" name="AdminChoice" value="">
+				<input type="hidden" id="otherData" name="OtherData" value="">
+			</form>
+			<!--<div class="headCheckout"><h1>Checkout</h1></div>-->
+			<div id="shoppingCart" class="checkoutCart">
+					<div class="runningTotCart">Books in Cart: <span id="totInCart">0</span><br>
+					Total Price:<span id="totPrice">0.00</span>
+					</div></br>
+					<input type=button id="checkout" onclick="checkout()" value="Purchase" disabled><br>
+			</div>
+			<div>
+				<table id='cart'>
+						<tr>
+							<td class="cartISBN">ISBN</td>
+							<td class="cartTitle">Title</td>
+							<td class="cartQuan">Quantity</td>
+							<td class="cartPrice">Price</td>
+						</tr>
+				</table>
+			</div>
+			<form id="checkoutForm" METHOD=post ACTION="/cgi-bin/classProjectWebVersion.exe" >
+				<input id="cOutChoice" name="MainChoice" type="hidden">
+				<input id="cOutAdmin" name="AdminChoice" type="hidden">
+				<p class="brightText">Name:</p>
+				<input type="text" id="purName" name="Name" data-nameValid="false" onkeypress="return actualAlphaCheck(event, this)">
+				<p class="brightText">Email:</p>
+				<input type="text" id="purEmail" name="Email" data-emailValid="false" onkeyup="emailCheck(this)">
+				<p class="brightText">Card Number:</p>
+				<input type="text" id="purCardNo" name="Card" data-cCardValid="false" onkeypress="return checkCCard(event, this)">
+				<input id="purTime" name="time" type="hidden">
+				<input id="purDate" name="date" type="hidden">
+				<p class="brightText">Address:</p>
+				<textarea id ="purAddress" rows="5" cols="60" name=address data-addressValid="false" onkeyup="addressValid(this)"></textarea>
+			</form>
+		</div>
+	</body>
+</html>

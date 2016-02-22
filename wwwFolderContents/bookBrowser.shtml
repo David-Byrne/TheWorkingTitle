@@ -1,0 +1,20 @@
+<!--#include file="indexgrp.html" -->
+<body>
+<input type="checkbox" id="sliding-menu-toggle" name="sliding-menu-toggle"/>
+<label for="sliding-menu-toggle" id="sliding-menu-toggle-label"></label>
+<header>The Working Title</header>
+<nav id="sliding-menu">
+    <ul class="link-styles">
+        <li><a href="WorkingTitle.shtml">Home</a></li>
+        <li><a href="makeapurch.shtml">Make a Purchase</a></li>
+        <li><a href="JavaScript:listAll()">List All</a></li>
+        <li><a href="adminLogin.shtml">Administrator Login</a></li>
+    </ul>
+</nav>
+<div id="page-content">
+    <li>
+        <a href="JavaScript:listAll()">List All</a>
+    </li>
+</div>
+</body>
+</html>
